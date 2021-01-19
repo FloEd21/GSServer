@@ -18,12 +18,12 @@ along with this program.  If not, see<https://www.gnu.org/licenses/> .
     <!--Title bar-->
     <system:String x:Key="titleName">GS Server</system:String>
     <system:String x:Key="titleApps">Applications connectées:</system:String>
-    <system:String x:Key="titleCloseApps">Applications connectées. Fermer quand même?</system:String>
+    <system:String x:Key="titleCloseApps">Des applications sont connectées, fermer quand même?</system:String>
     <system:String x:Key="titleDescription">GreenSwamp Server</system:String>
     <system:String x:Key="titleClose">Fermer GS Server</system:String>
 
     <!--Tab bar-->
-    <system:String x:Key="tabSkyWatcher">SkyWatcher</system:String>
+    <system:String x:Key="tabSkyWatcher">Principale</system:String>
     <system:String x:Key="tabFocuser">Focuser</system:String>
     <system:String x:Key="tabNotes">Notes</system:String>
     <system:String x:Key="tabOptions">Options</system:String>
@@ -36,7 +36,7 @@ along with this program.  If not, see<https://www.gnu.org/licenses/> .
 
     <!--Top bar-->
     <system:String x:Key="topRa">Ascension droite:</system:String>
-    <system:String x:Key="topRaShort">RA:</system:String>
+    <system:String x:Key="topRaShort">AD:</system:String>
     <system:String x:Key="topDec">Declinaison:</system:String>
     <system:String x:Key="topDecShort">Dec:</system:String>
     <system:String x:Key="topAz">Az:</system:String>
@@ -46,7 +46,7 @@ along with this program.  If not, see<https://www.gnu.org/licenses/> .
     <!--Button bar-->
     <system:String x:Key="btnHome">Home</system:String>
     <system:String x:Key="btnBadgeHome">Home</system:String>
-    <system:String x:Key="btnTipHome">Déplacement vers position Home</system:String>
+    <system:String x:Key="btnTipHome">Déplacement vers Home</system:String>
     <system:String x:Key="btnPark">Parker</system:String>
     <system:String x:Key="btnUnPark">Déparker</system:String>
     <system:String x:Key="btnHintPark">Parker</system:String>
@@ -60,11 +60,11 @@ along with this program.  If not, see<https://www.gnu.org/licenses/> .
     <system:String x:Key="btnTipSetHome">Actualise la position Home selon position actuelle</system:String>
     <system:String x:Key="btnFlip">Retournement</system:String>
     <system:String x:Key="btnTipFlip">Retournement méridien vers l'autre côté du pied</system:String>
-    <system:String x:Key="btnHomeReset">Valider de réinitialiser la position actuelle de la monture comme position Home?</system:String>
+    <system:String x:Key="btnHomeReset">Valider la position actuelle de la monture comme position Home?</system:String>
     <system:String x:Key="btnContinueFlip">Valider le retournement?</system:String>
     <system:String x:Key="btnTipParkPos">Positions de parking</system:String>
     <system:String x:Key="btnAutoHome">AutoHome</system:String>
-    <system:String x:Key="btnAutoHomeComplete">Auto Home Complet</system:String>
+    <system:String x:Key="btnAutoHomeComplete">AutoHome Complet</system:String>
     <system:String x:Key="btnAutoHomeStart">Start</system:String>
     <system:String x:Key="btnAutoHomeLimit">Mouvement max en degrés:</system:String>
     <system:String x:Key="btnTipAutoHomeLimit">Limite en degrés</system:String>
@@ -78,7 +78,7 @@ along with this program.  If not, see<https://www.gnu.org/licenses/> .
     <system:String x:Key="botHome">Home</system:String>
     <system:String x:Key="botTipHome">Monture en position Home</system:String>
     <system:String x:Key="botParked">Parkée</system:String>
-    <system:String x:Key="botTipParked">Monture en position de parking</system:String>
+    <system:String x:Key="botTipParked">Monture parkée</system:String>
     <system:String x:Key="botSlewing">Déplacement</system:String>
     <system:String x:Key="botTipSlewing">Monture en déplacement</system:String>
     <system:String x:Key="botTracking">Suivi</system:String>
@@ -86,10 +86,10 @@ along with this program.  If not, see<https://www.gnu.org/licenses/> .
     <system:String x:Key="botTipSOP">Côté du pied</system:String>
     <system:String x:Key="botTipAxisLimit">Limites d'axes, cliquer pour ajuster</system:String>
     <system:String x:Key="botTipWarnings">Alerte, cliquer pour reset</system:String>
-    <system:String x:Key="botTipErrors">Erreurs, cliquer pour reset</system:String>
+    <system:String x:Key="botTipErrors">Erreur, cliquer pour reset</system:String>
     <system:String x:Key="botTipVoice">Voix</system:String>
     <system:String x:Key="botTipMonitor">Affichage</system:String>
-    <system:String x:Key="botTipConnected">Cliquer pour les informations de la monture</system:String>
+    <system:String x:Key="botTipConnected">Informations de la monture</system:String>
     <system:String x:Key="botLimitOptions">Options des limites</system:String>
     <system:String x:Key="botLimitTracking">Arréter le suivi</system:String>
 
@@ -107,7 +107,7 @@ along with this program.  If not, see<https://www.gnu.org/licenses/> .
     <system:String x:Key="hcTipFlipEW">Inverser directions E/W</system:String>
     <system:String x:Key="hcFlipEW">E/W</system:String>
     <system:String x:Key="hcMode">Contrôler selon:</system:String>
-    <system:String x:Key="hcTipMode">Modes de contrôle manuel</system:String>
+    <system:String x:Key="hcTipMode">Contrôle manuel</system:String>
     <system:String x:Key="hcBacklash">Anti-Backlash</system:String>
     <system:String x:Key="hcTipHcAntiBacklash">Directions sur lesquelles activer la fonction Anti-Backlash</system:String>
     <system:String x:Key="hcRa">E/W</system:String>
@@ -116,7 +116,7 @@ along with this program.  If not, see<https://www.gnu.org/licenses/> .
     <system:String x:Key="hcOpenWin">Ouvrir fenêtre</system:String>
 
     <!--pPEC bar-->
-    <system:String x:Key="ppStartTraining">Accépter de démarrer l'apprentissage</system:String>
+    <system:String x:Key="ppStartTraining">Démarrer l'apprentissage</system:String>
     <system:String x:Key="ppStartTrainingMode">Démarrer le mode d'apprentissage PPEC</system:String>
     <system:String x:Key="ppOnOff">On/Off PPEC</system:String>
     <system:String x:Key="ppPec">PPEC</system:String>
@@ -130,17 +130,17 @@ along with this program.  If not, see<https://www.gnu.org/licenses/> .
     <system:String x:Key="mntNotSupported">Non supporté</system:String>
     <system:String x:Key="mntMount">Monture:</system:String>
     <system:String x:Key="mntVersion">Version:</system:String>
-    <system:String x:Key="mntStepsRa">Pas Ra:</system:String>
+    <system:String x:Key="mntStepsRa">Pas AD:</system:String>
     <system:String x:Key="mntStepsDec">Pas Dec:</system:String>
     <system:String x:Key="mntPEC">PPEC:</system:String>
     <system:String x:Key="mntHomeSensor">Capteur AutoHome:</system:String>
-    <system:String x:Key="mntRaSteps">Ra Pas/Arcsec:</system:String>
+    <system:String x:Key="mntRaSteps">AD Pas/Arcsec:</system:String>
     <system:String x:Key="mntDecSteps">Dec Pas/Arcsec:</system:String>
     <system:String x:Key="mntInfo">Monture Info</system:String>
 
     <!--GoTo bar-->
-    <system:String x:Key="goAcpCoords">Accépter les coordonnées?</system:String>
-    <system:String x:Key="goRa">RA:</system:String>
+    <system:String x:Key="goAcpCoords">Valider les coordonnées?</system:String>
+    <system:String x:Key="goRa">AD:</system:String>
     <system:String x:Key="goDec">Dec:</system:String>
     <system:String x:Key="goCopy">Copier</system:String>
     <system:String x:Key="goTipCopy">Actualiser avec les coordonnées actuelles</system:String>
@@ -153,18 +153,18 @@ along with this program.  If not, see<https://www.gnu.org/licenses/> .
     <system:String x:Key="goOutLimits">Hors des limites de synchronisation</system:String>
 
     <!--Backlash -->
-    <system:String x:Key="bacDecLash">Dec Backlash</system:String>
-    <system:String x:Key="bacLashComp">Backlash compensation:</system:String>
+    <system:String x:Key="bacDecLash">Backlash en Dec</system:String>
+    <system:String x:Key="bacLashComp">Compensation du Backlash:</system:String>
     <system:String x:Key="bacDec">Dec</system:String>
     <system:String x:Key="bacRa">Ra</system:String>
-    <system:String x:Key="bacRaLash">Ra Backlash</system:String>
+    <system:String x:Key="bacRaLash">Backlash en AD</system:String>
 
     <!--Debug bar-->
     <system:String x:Key="bugSiderealTime">Heure Sidérale:</system:String>
 
     <!--Gamepad-->
     <system:String x:Key="gpOn">Manette On</system:String>
-    <system:String x:Key="gpSen">Sensitivité:</system:String>
+    <system:String x:Key="gpSen">Sensibilité:</system:String>
     <system:String x:Key="gpDoubleClickSpeed">Vitesse du double-clic:</system:String>
     <system:String x:Key="gpTracking">Suivi</system:String>
     <system:String x:Key="gpStop">Stop</system:String>
@@ -179,10 +179,10 @@ along with this program.  If not, see<https://www.gnu.org/licenses/> .
     <system:String x:Key="gpSlewLeft">Déplacement vers la gauche</system:String>
     <system:String x:Key="gpSlewRight">Déplacement vers la droite</system:String>
     <system:String x:Key="gpSave">Sauver</system:String>
-    <system:String x:Key="gpSidereal">Suivi Sidéral</system:String>
-    <system:String x:Key="gpLunar">Suivi Lunaire</system:String>
-    <system:String x:Key="gpSolar">Suivi Solaire</system:String>
-    <system:String x:Key="gpKing">Suivi King</system:String>
+    <system:String x:Key="gpSidereal">vitesse Sidérale</system:String>
+    <system:String x:Key="gpLunar">vitesse Lunaire</system:String>
+    <system:String x:Key="gpSolar">vitesse Solaire</system:String>
+    <system:String x:Key="gpKing">King</system:String>
 
     <!--GPS -->
     <system:String x:Key="gpsCom">Port COM</system:String>
@@ -199,13 +199,13 @@ along with this program.  If not, see<https://www.gnu.org/licenses/> .
     <system:String x:Key="gpsLocal">Divergence au temps local</system:String>
     <system:String x:Key="gpsPC">PC:</system:String>
     <system:String x:Key="gpsGPS">GPS:</system:String>
-    <system:String x:Key="gpsDeviation">Deviation:</system:String>
+    <system:String x:Key="gpsDeviation">Déviation:</system:String>
     <system:String x:Key="gpsChangeTime">Actualiser l'heure systéme ?</system:String>
-    <system:String x:Key="gpsTimeLimit">En dehors des limites de temps modifiables</system:String>
+    <system:String x:Key="gpsTimeLimit">En dehors des limites de temps modifiable</system:String>
     <system:String x:Key="gpsTimeError">Erreur d'heure</system:String>
 
     <!--CdC -->
-    <system:String x:Key="cdcIP">adresse IP</system:String>
+    <system:String x:Key="cdcIP">Adresse IP</system:String>
     <system:String x:Key="cdcPort">Numéro de port</system:String>
     <system:String x:Key="cdcRetrieve">Récupérer</system:String>
     <system:String x:Key="cdcSend">Envoyer</system:String>
@@ -245,7 +245,7 @@ along with this program.  If not, see<https://www.gnu.org/licenses/> .
     <system:String x:Key="vcePeckTrainOff">Entrainement Peck off</system:String>
     <system:String x:Key="vceStop">Stop</system:String>
     <system:String x:Key="vceAbortSlew">Annuler</system:String>
-    <system:String x:Key="vceParkSet">Park Set</system:String>
+    <system:String x:Key="vceParkSet">Park</system:String>
     <system:String x:Key="vceSyncAz">Synchroniser avec l'Azimuth</system:String>
     <system:String x:Key="vceSyncCoords">Synchroniser avec Coordonnées</system:String>
     <system:String x:Key="vceSlewing">Déplacement</system:String>
@@ -255,7 +255,7 @@ along with this program.  If not, see<https://www.gnu.org/licenses/> .
     <system:String x:Key="vceSlewComplete">Déplacement terminé</system:String>
     <system:String x:Key="vceHome">Home</system:String>
     <system:String x:Key="vceHomeSet">Home</system:String>
-    <system:String x:Key="vceSidereal">Sidéral</system:String>
+    <system:String x:Key="vceSidereal">Sidérale</system:String>
     <system:String x:Key="vceSolar">Solaire</system:String>
     <system:String x:Key="vceLunar">Lunaire</system:String>
     <system:String x:Key="vceKing">King</system:String>
@@ -299,7 +299,7 @@ along with this program.  If not, see<https://www.gnu.org/licenses/> .
     <system:String x:Key="notSpellCheck">Contrôle orthographe</system:String>
     <system:String x:Key="notDate">Date</system:String>
     <system:String x:Key="notTime">Heure</system:String>
-    <system:String x:Key="notRa">Ra</system:String>
+    <system:String x:Key="notRa">AD</system:String>
     <system:String x:Key="notDec">Dec</system:String>
     <system:String x:Key="notAlt">Alt</system:String>
     <system:String x:Key="notAz">Az</system:String>
@@ -328,7 +328,7 @@ along with this program.  If not, see<https://www.gnu.org/licenses/> .
     <system:String x:Key="notFirstQuarter">Premier quartier</system:String>
     <system:String x:Key="notWaxingGibbous">Lune gibbeuse montante</system:String>
     <system:String x:Key="notLogEntry">Entrée du journal</system:String>
-    <system:String x:Key="notCoordinateType">Type de coordonénes</system:String>
+    <system:String x:Key="notCoordinateType">Type de coordonnées</system:String>
     <system:String x:Key="notObservatory">Observatoire</system:String>
     <system:String x:Key="notLat">Lat</system:String>
     <system:String x:Key="notLong">Long</system:String>
@@ -355,12 +355,12 @@ along with this program.  If not, see<https://www.gnu.org/licenses/> .
     <system:String x:Key="skyAltPpEC">PPEC alternatif</system:String>
     <system:String x:Key="skyFullCurrent">Courant total</system:String>
     <system:String x:Key="skyGoToDecPulse">GoTo Dec implusions</system:String>
-    <system:String x:Key="skyDiagnostics">Diagnostics</system:String>
+    <system:String x:Key="skyDiagnostics">Diagnostic</system:String>
     <system:String x:Key="skySetPark">Définir position Parking selon position actuelle</system:String>
     <system:String x:Key="skyOBL">Emplacement observatoire</system:String>
     <system:String x:Key="skyLatitude">Latitude:</system:String>
     <system:String x:Key="skyLongitude">Longitude:</system:String>
-    <system:String x:Key="skyTemperature">Temperature</system:String>
+    <system:String x:Key="skyTemperature">Température</system:String>
     <system:String x:Key="skyAmbTemp">Température ambiante celsius</system:String>
     <system:String x:Key="skyElevation">Elevation</system:String>
     <system:String x:Key="skyMeters">Métres</system:String>
@@ -378,7 +378,7 @@ along with this program.  If not, see<https://www.gnu.org/licenses/> .
     <system:String x:Key="skyStopMount">Arréter la monture avant de définir la position Home</system:String>
     <system:String x:Key="skyConnect">Connecter</system:String>
     <system:String x:Key="skyDisconnect">Déconnecter</system:String>
-    <system:String x:Key="skyHome1">Au démarrage, placez normalement la monture en position "Home".</system:String>
+    <system:String x:Key="skyHome1">Au démarrage, placer la monture en position "Home".</system:String>
     <system:String x:Key="skyHome2">La Position Home est contrepoids vers le bas et l'axe de déclinaison pointe vers le pôle.</system:String>
     <system:String x:Key="skyHome3">Cliquez sur le bouton "Définir Home" avant ou après avoir obtenu un alignement polaire.</system:String>
     <system:String x:Key="skyParkNewName">Ajouter une nouvelle position de parking</system:String>
@@ -388,7 +388,7 @@ along with this program.  If not, see<https://www.gnu.org/licenses/> .
     <system:String x:Key="skyLong0">Est ou Ouest</system:String>
     <system:String x:Key="skyLong01">E/W</system:String>
     <system:String x:Key="skyMinPulseDec">Minimum Dec Pulse</system:String>
-    <system:String x:Key="skyMinPulseRa">Minimum Ra Pulse</system:String>
+    <system:String x:Key="skyMinPulseRa">Minimum AD Pulse</system:String>
     <system:String x:Key="skySchCol1">On/Off</system:String>
     <system:String x:Key="skySchCol2">Action</system:String>
     <system:String x:Key="skySchCol3">Date</system:String>
@@ -413,7 +413,7 @@ along with this program.  If not, see<https://www.gnu.org/licenses/> .
     <system:String x:Key="optDevice">Périphérique:</system:String>
     <system:String x:Key="optServer">Serveur</system:String>
     <system:String x:Key="optTelescope">Telescope</system:String>
-    <system:String x:Key="optCategory">Categorie:</system:String>
+    <system:String x:Key="optCategory">Catégorie:</system:String>
     <system:String x:Key="optDriver">Driver</system:String>
     <system:String x:Key="optInterface">Interface</system:String>
     <system:String x:Key="optServer1">Serveur</system:String>
@@ -428,8 +428,8 @@ along with this program.  If not, see<https://www.gnu.org/licenses/> .
     <system:String x:Key="optWriteFile">Ecrire un élément dans le fichier</system:String>
     <system:String x:Key="optLogFile">Journal dans un fichier</system:String>
     <system:String x:Key="optStartStop">Start/Stop Monitoring</system:String>
-    <system:String x:Key="optClear">Vider</system:String>
-    <system:String x:Key="optClearText">Vider texte</system:String>
+    <system:String x:Key="optClear">Supprimer</system:String>
+    <system:String x:Key="optClearText">Supprimer texte</system:String>
     <system:String x:Key="optExport">Exporter</system:String>
     <system:String x:Key="optExportText">Exporter le texte dans un fichier</system:String>
     <system:String x:Key="optCopy">Copier</system:String>
@@ -472,14 +472,14 @@ along with this program.  If not, see<https://www.gnu.org/licenses/> .
     <system:String x:Key="optHardware">Acceleration Off</system:String>
     <system:String x:Key="optRender">Capacités de rendu</system:String>
     <system:String x:Key="optUTCOffset">UTC OffSet</system:String>
-    <system:String x:Key="optLSTAdjusted">UTC Adjusted Date:</system:String>
-    <system:String x:Key="optLocalAdjusted">Local Adjusted Date:</system:String>
+    <system:String x:Key="optLSTAdjusted">UTC Adjuster Date:</system:String>
+    <system:String x:Key="optLocalAdjusted">Local Adjuster Date:</system:String>
     <system:String x:Key="optDownload">Téléchargement</system:String>
     <system:String x:Key="optUpdateVer">Version disponible:</system:String>
     <system:String x:Key="optCurrentVer">Version installée:</system:String>
     <system:String x:Key="optCheckUpdates">Vérifier les mises à jour</system:String>
     <system:String x:Key="optNotAvail">Pas de mise à jour disponible</system:String>
-    <system:String x:Key="optNotFound">as de mise à jour trouvée</system:String>
+    <system:String x:Key="optNotFound">Pas de mise à jour trouvée</system:String>
     <system:String x:Key="optDisconnects">Déconnecter la monture et les application avant de démarrer</system:String>
     <system:String x:Key="optPole">Alignement polaire</system:String>
     <system:String x:Key="optCopiedClip">Copier dans le presse-papier</system:String>
@@ -489,7 +489,7 @@ along with this program.  If not, see<https://www.gnu.org/licenses/> .
     <system:String x:Key="3dHud">Coordonnées</system:String>
     <system:String x:Key="3dEdit">Edition</system:String>
     <system:String x:Key="3dCamera">Camera Info</system:String>
-    <system:String x:Key="3dRaAxis">Axe RA</system:String>
+    <system:String x:Key="3dRaAxis">Axe AD</system:String>
     <system:String x:Key="3dDecAxis">Axe Dec</system:String>
     <system:String x:Key="3dTopBar">Barre de coordonnées</system:String>
     <system:String x:Key="3dModel">GSS 3D Model</system:String>
@@ -524,7 +524,7 @@ along with this program.  If not, see<https://www.gnu.org/licenses/> .
     <system:String x:Key="polLong">Longitude:</system:String>
     <system:String x:Key="polLST">Heure Sidérale:</system:String>
     <system:String x:Key="polHADeg">Angle horaire:</system:String>
-    <system:String x:Key="polHAFlipDeg">HA retournement:</system:String>
+    <system:String x:Key="polHAFlipDeg">AD retournement:</system:String>
     <system:String x:Key="polLDate">Date locale:</system:String>
     <system:String x:Key="polLTime">Heure locale:</system:String>
     <system:String x:Key="polMirrorFlip">Retourner la vue</system:String>
@@ -537,15 +537,15 @@ along with this program.  If not, see<https://www.gnu.org/licenses/> .
 
     <!--1.0.2.1 -->
     <system:String x:Key="1021SpiralSearch">Recherche en spirale</system:String>
-    <system:String x:Key="1021In">Dans</system:String>
-    <system:String x:Key="1021Out">En dehors</system:String>
-    <system:String x:Key="1021Abort">Avorter</system:String>
+    <system:String x:Key="1021In">Intérieur</system:String>
+    <system:String x:Key="1021Out">Extérieur</system:String>
+    <system:String x:Key="1021Abort">Stopper</system:String>
     <system:String x:Key="1021New">Nouveau</system:String>
-    <system:String x:Key="1021Clear">Clair</system:String>
+    <system:String x:Key="1021Clear">Nettoyer</system:String>
     <system:String x:Key="1021Calculate">Calculer</system:String>
     <system:String x:Key="1021WidthA">Largeur (arcsec)</system:String>
-    <system:String x:Key="1021HeightA">la taille (arcsec)</system:String>
-    <system:String x:Key="1021LimitsOn">Limites sur</system:String>
+    <system:String x:Key="1021HeightA">Hauteur (arcsec)</system:String>
+    <system:String x:Key="1021LimitsOn">Limites actives</system:String>
     <system:String x:Key="1021Distance">Distance:</system:String>
     <system:String x:Key="1021MM">(mm)</system:String>
     <system:String x:Key="1021FovHeader">Calculer (FOV)</system:String>
@@ -556,9 +556,9 @@ along with this program.  If not, see<https://www.gnu.org/licenses/> .
     <system:String x:Key="1021Eyepiece">Oculaire</system:String>
     <system:String x:Key="1021Camera">Caméra</system:String>
     <system:String x:Key="1021Width">Largeur</system:String>
-    <system:String x:Key="1021Height">la taille</system:String>
+    <system:String x:Key="1021Height">Hauteur</system:String>
     <system:String x:Key="1021FlipLimit">Limite de retournement</system:String>
-    <system:String x:Key="1021NoHomeSensor">Le support ne prend pas en charge un capteur domestique</system:String>
+    <system:String x:Key="1021NoHomeSensor">Pas de prise en charge du capteur Home</system:String>
     <system:String x:Key="1021Center">Centre</system:String>
     <system:String x:Key="1021End">Fin</system:String>
 
@@ -570,9 +570,9 @@ along with this program.  If not, see<https://www.gnu.org/licenses/> .
     <system:String x:Key="PecStatus">PEC Statut</system:String>
 
     <!--1.0.2.4 -->
-    <system:String x:Key="LimitNothing">Rien</system:String>
-    <system:String x:Key="tabSnap">Snap</system:String>
-    <system:String x:Key="snapOn">Sur</system:String>
+    <system:String x:Key="LimitNothing">Absence de limites</system:String>
+    <system:String x:Key="tabSnap">Snap-déclencheur</system:String>
+    <system:String x:Key="snapOn">Activé</system:String>
     <system:String x:Key="snapPause">Pause</system:String>
     <system:String x:Key="snap1">Snap Port 1:</system:String>
     <system:String x:Key="snap2">Snap Port 2:</system:String>
@@ -580,7 +580,7 @@ along with this program.  If not, see<https://www.gnu.org/licenses/> .
     <system:String x:Key="snapCounter">Compteur</system:String>
     <system:String x:Key="snapLoops">Boucles</system:String>
     <system:String x:Key="snapDelay">Retard</system:String>
-    <system:String x:Key="snapTimerEr">Régler la quantité de minuterie</system:String>
+    <system:String x:Key="snapTimerEr">Régler le minuteur</system:String>
     <system:String x:Key="snapEnable">Activer Snap</system:String>
     <system:String x:Key="snapConn">Non connecté au montage</system:String>
     <system:String x:Key="snapSupport">Non pris en charge sur cette monture</system:String>
