@@ -38,7 +38,7 @@ along with this program.  If not, see<https://www.gnu.org/licenses/> .
     <system:String x:Key="utilExit">Sortir</system:String>
     <system:String x:Key="utilAccept">Accepter</system:String>
     <system:String x:Key="utilCancel">Annuler</system:String>
-    <system:String x:Key="utilAccDelFiles">Accepter de supprimer?</system:String>
+    <system:String x:Key="utilAccDelFiles">Valider suppression ?</system:String>
     <system:String x:Key="utilDelLogFiles">Fichiers journaux supprimés</system:String>
     <system:String x:Key="utilDelSettings">Fichiers préférences supprimés</system:String>
     <system:String x:Key="utilDelSettingsVer">Préférences de version supprimées</system:String>
